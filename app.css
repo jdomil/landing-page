@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
+:root {
+  --dark-background-color: #1f2937;
+  --intense-white: #f9faf8;
+  --light-white: #e5e7eb;
+  --black-text: #1f2937;
+  --blue-color: #3882f6;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  background-color: var(--dark-background-color);
+}
+
+header {
+  background-color: var(--dark-background-color);
+  height: 50vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 15%;
+  margin: auto;
+}
+
+.logo a {
+  color: var(--intense-white);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.navigation-links {
+  margin: 0 0.5rem;
+}
+
+.navigation-links a {
+  color: var(--light-white);
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0 0.8rem;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  height: 85%;
+  margin: auto;
+}
+
+section .intro-section {
+  width: 50%;
+}
+
+.intro-section h1 {
+  color: var(--intense-white);
+  font-size: 48px;
+  margin: 1rem 0;
+}
+
+.intro-section p {
+  color: var(--light-white);
+  font-size: 18px;
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
+.intro-section button {
+  background-color: var(--blue-color);
+  color: var(--intense-white);
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.image {
+  background-color: gray;
+  width: 45%;
+  height: 55%;
+  margin: auto;
+  color: var(--light-white);
+  font-size: 18px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+}
+
+.main-header {
+  width: 80vw;
+  max-height: 15%;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.main-header h2 {
+  color: var(--black-text);
+  font-size: 36px;
+  text-align: center;
+}
+
+.main-grid {
+  width: 80vw;
+  max-height: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.element-image {
+  width: 60%;
+  padding-top: 60%;
+  margin: auto;
+  border: #3882f6 solid 3px;
+  border-radius: 5px;
+}
+
+.element-text {
+  color: var(--black-text);
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  margin: 1rem auto;
+  width: 65%;
+}
+
+.cite {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  background-color: lightgrey;
+}
+
+.cite-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cite p {
+  margin: 0 auto;
+  color: var(--black-text);
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.cite .author {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  align-self: flex-end;
+  margin: 1rem 2rem;
+}
+
+.action-container {
+  background-color: white;
+  height: 30vh;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.call-to-action {
+  background-color: var(--blue-color);
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-text h3 {
+  color: var(--intense-white);
+  font-size: 24px;
+  margin: 0.5rem 0;
+}
+
+.call-text p {
+  color: var(--light-white);
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0.5rem 0;
+}
+
+button.lower-sign-up {
+  color: var(--light-white);
+  border: var(--intense-white) solid 2px;
+  background-color: var(--blue-color);
+  border-radius: 5px;
+  padding: 0.5rem 2rem;
+}
+
+footer p {
+  color: var(--light-white);
+  font-size: 18px;
+  font-weight: 100;
+  text-align: center;
+  vertical-align: middle;
+}
